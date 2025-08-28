@@ -1,7 +1,7 @@
 /*properties the entire body has 
 (mainly background images, etc)*/
 body{
-    background-image: url(images/background1.png);
+    background-image: url(background1.png);
 }
 /*every section has these properties as the base*/
 section{

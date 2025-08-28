@@ -1,0 +1,51 @@
+/*properties the entire body has 
+(mainly background images, etc)*/
+body{
+    background-image: url(background1.png);
+}
+/*every section has these properties as the base*/
+section{
+    font-family:cursive;
+    background-color:white;
+    border-color:black;
+    border-style:solid;
+    border-width: 5px;
+    border-radius:10px;
+    padding:10px;
+    margin-top:30px;
+    color:black;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+    justify-self:center;
+    max-width:800px;
+    font-size:110%
+}
+/*these are specific properties that apply to the header bar*/
+#nav{
+    background-color:rgb(140, 9, 9);
+    margin-top:0px;
+    display:flex;
+    max-width:2400px;
+    justify-self:auto;
+}
+#navtext{
+    font-size:60px;
+    text-align:center;
+    padding-top:20px;
+    padding-left:360px;
+    color:white;
+}
+/*the welcome section has some additional properties*/
+section#welcome{
+    text-align:center;
+}
+/*properties of links*/
+a{
+    color:black;
+}
+section#embedded{
+    background-color:rgba(0,0,0,0);
+    border-color:rgba(0,0,0,0);
+    border-style:solid;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0);
+    max-width:2400px;
+}

@@ -35,6 +35,14 @@ section{
 a{
     color:black;
 }
+#githublinker{
+    color:white;
+    text-decoration:underline;
+}
+#katelinker{
+    color:white;
+    text-decoration:underline;
+}
 /*these are specific properties that apply to the header bar*/
 #nav{
     background-color:rgb(140, 9, 9);

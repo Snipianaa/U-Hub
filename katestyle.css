@@ -1,6 +1,9 @@
 body{
     background-image: url(kate.jpg);
 }
+#katebodynav{
+    background:none;
+}
 section{
     font-family:cursive;
     display:flex;
@@ -50,6 +53,11 @@ section{
 }
 #embedded{
     margin-top:3%
+}
+/*navigation embed properties*/
+#navembed{
+    width:100%;
+    max-height: fit-content;
 }
 #headertexts{
     font-size:225%;
@@ -148,9 +156,9 @@ button:hover{
     transform: scale(1.2); 
 }
 /*align the buttons*/
-#videobuttons{
+#katesifyvideobuttons{
     justify-content:center;
 }
-#postbuttons{
+#katesifypostbuttons{
     justify-content:center;
 }

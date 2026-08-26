@@ -3,6 +3,9 @@ body{
     background-image: url(uhub3background.png);
     background-size: cover;
 }
+#mainnav{
+    background:none;
+}
 /*every section has these properties as the base*/
 section{
     font-family:cursive;
@@ -30,6 +33,10 @@ section{
 }
 #headertexts{
     font-size:225%;
+}
+#navembed{
+    width:100%;
+    max-height: fit-content;
 }
 /*properties of links*/
 a{
